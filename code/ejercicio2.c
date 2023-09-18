@@ -33,15 +33,19 @@ int main(){
     case 2:
         perimetro = 2 * lado1 + 2 * lado2;
         printf("El perimetro de su rectangulo es= %d", perimetro);
+        break;
     case 3:
         perimetro = 3 * lado1;
         printf("El perimetro de su triangulo equilatero es= %d", perimetro);
+        break;
     case 4: 
         perimetro = 2 * lado1 + lado3;
         printf("El perimetro de su triangulo isoceles es= %d", perimetro);
+        break;
     case 5:
         perimetro = lado1 + lado2 + lado3;
         printf("El perimetro de su triangulo escaleno es= %d", perimetro);
+        break;
     default:
         break;
     }
